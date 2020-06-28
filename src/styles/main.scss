@@ -10,3 +10,17 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+#main {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+path {
+  stroke-linejoin: arcs;
+  stroke-miterlimit: 0.5;
+}
+
+.county {
+  stroke-width: 1px;
+}
