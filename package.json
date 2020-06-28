@@ -11,10 +11,17 @@
   "author": "Matthew Feng",
   "license": "",
   "devDependencies": {
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
+    "markdown-loader": "^5.1.0",
+    "marked": "^1.1.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "d3": "^5.16.0"
   }
 }
